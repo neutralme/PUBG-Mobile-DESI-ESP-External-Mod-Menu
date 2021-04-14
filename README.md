@@ -1,7 +1,7 @@
 # PUBG Mobile DESI ESP External Mod Menu
 PUBG Mobile DESI ESP External Mod Menu project for PUBG Mobile 1.3.0. Project fixed for better compatibility for Android Studio
 
-**AIDE app does not compile androidx correctly, the app will crash!**
+**Note: AIDE app does not compile androidx correctly, the app will crash!**
 
 Use UE4Dumper to dump SDK if you want to know offsets: https://github.com/kp7742/UE4Dumper/
 
