@@ -1,5 +1,5 @@
 # PUBG Mobile DESI ESP External Mod Menu
-PUBG Mobile DESI ESP External Mod Menu project for PUBG Mobile 1.3.0. Project fixed for better compatibility for Android Studio
+PUBG Mobile DESI ESP External Mod Menu project for PUBG Mobile 1.3.0. Support root and non-root (virtual), 32-bit and 64-bit injection. Works on both Android Studio and AIDE. Project fixed for better compatibility
 
 **Note: AIDE app does not compile androidx correctly, the app will crash!**
 

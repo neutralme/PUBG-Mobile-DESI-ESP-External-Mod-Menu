@@ -2,21 +2,21 @@ package com.nadigapp.desiespimportant;
 
 import android.app.*;
 import android.content.*;
+import android.graphics.*;
 import android.net.*;
 import android.os.*;
 import android.provider.*;
 //import android.support.v7.app.*;
-import androidx.appcompat.app.AppCompatActivity;
+//import androidx.appcompat.app.AppCompatActivity; //AIDE does not like it
 import android.view.*;
 import android.view.View.*;
 import android.widget.*;
 import java.io.*;
 
-
 import java.lang.Process;
 
-
-public class MainActivity extends AppCompatActivity implements OnClickListener {
+//AIDE does not like AppCompatActivity so use Activity instead
+public class MainActivity extends Activity implements OnClickListener {
 	
 	String gameName="com.tencent.ig";
 	static int gameType=1;

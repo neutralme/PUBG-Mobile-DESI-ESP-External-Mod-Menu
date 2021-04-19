@@ -13,14 +13,14 @@ LOCAL_CFLAGS := -Wno-error=format-security -fvisibility=hidden -ffunction-sectio
 LOCAL_CFLAGS += -fno-rtti -fno-exceptions -fpermissive
 LOCAL_CPPFLAGS := -Wno-error=format-security -fvisibility=hidden -ffunction-sections -fdata-sections -w -Werror -s -std=c++17
 LOCAL_CPPFLAGS += -Wno-error=c++11-narrowing -fms-extensions -fno-rtti -fno-exceptions -fpermissive
-LOCAL_LDFLAGS += -Wl,--gc-sections,--strip-all, -llog
+LOCAL_LDFLAGS += -Wl,--gc-sections,--strip-all, -llog -L$(SYSROOT)/usr/lib -lz
+LOCAL_LDLIBS := -llog -landroid -lGLESv2
 LOCAL_ARM_MODE := arm
 
 LOCAL_C_INCLUDES += $(MAIN_LOCAL_PATH)
+LOCAL_C_INCLUDES += $(LOCAL_PATH)
 
 # Here you add the cpp file
 LOCAL_SRC_FILES := desilib.cpp \
-
-LOCAL_LDLIBS := -llog -landroid -lGLESv2
 
 include $(BUILD_SHARED_LIBRARY)

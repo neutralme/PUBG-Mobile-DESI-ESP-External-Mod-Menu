@@ -47,7 +47,7 @@ Java_com_nadigapp_desiespimportant_FloatLogo_SettingValue(JNIEnv *,  jobject ,ji
 
 extern "C" JNIEXPORT jboolean JNICALL
 Java_com_nadigapp_desiespimportant_Overlay_getReady(JNIEnv *, jclass ,int typeofgame) {
-    /*int sockCheck=1;
+    int sockCheck=1;
     if (!Create()) {
         perror("Creation failed");
         return false;
@@ -69,6 +69,5 @@ Java_com_nadigapp_desiespimportant_Overlay_getReady(JNIEnv *, jclass ,int typeof
         send((void*)&sv,sizeof(sv));
        // Close();
         return true;
-    }*/
-
+    }
 }
